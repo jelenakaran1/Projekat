@@ -85,5 +85,9 @@ Funkcija u kojoj se vrši inicijalizacija svih periferija koje se koriste, kreir
 
 Projekat se testira tako što prvo otvorite sve periferije, a potom pokrenete program iz Visual Studia. Nakon toga, u kanalu 0 serijske komunikacije, u polje T1 upisati karakter 'u', a u polje R1 upisati trenutnu unutrašnju i spoljašnju otpornost (npr. U20K za unutrašnju ili S20K za spoljašnju). U kanalu 2 se u polje T1 upisuje karakter 't', a u polju R1 se šalje opseg temperature (npr. T3020K, gde 30 predstavlja max temperaturu, a 20 minimalnu). Na kraju se iz terminala 1 šalju vrednosti za kalibraciju. Pored dugmeta send code, upisati parametre (npr. \00MINTEMP1020CR i \00MAXTEMP20100CR, gde prvi broj predstavlja minimalna(maksimalna) temperatura, a drugi maksimalna(minimalna) otpornost). Nakon što je sve pokrenuto, u teerminalu treba da se ispisuju određene poruke, i ako je kalibrisana temperatura, određeni stubac u led baru će zasvetleti. Pritiskom prvog dugmeta od dole, treće kolone led bara, na sedmosegmentnom displeju se ispisuje unutrašnja kalibrisana temperatura i unutrašnja otpornost, a pritskom drugog dugmeta od dole spoljašnja. 
 
+## MISRA PRAVILA
+
+Pravila koja su zanemarena u projektu su:  2.2, 2.7, 4.6, 10.4, 11.1, 11.2, 11.4, 11.6, 14.4, 15.6,  
+
 
 
