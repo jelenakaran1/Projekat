@@ -27,7 +27,7 @@ Ako temperatura ispadne iz opsega koji se zadaje ovom naredbom, da jedan ceo stu
 
 1. Led bar cine tri stupca, prva dva su diode, a treći je taster . Pozivanje se vrsi preko naredbe LED_bars_plus.exe BBb
 
-2. Sedmosegmentni displej sadrzi 7 cifara, a poziva se naredbom Seg7_Mux.exe 7
+2. Sedmosegmentni displej sadrzi 7 cifara, a poziva se naredbom Seg7_Mux.exe 5
 
 3. Za serijsku komunikaciju neophodna su tri kanala cije se otvaranje vrsi pozivanjem sledecih naredbi: AdvUniCom.exe 0, AdvUniCom.exe 1 i AdvUniCom.exe 2
 
