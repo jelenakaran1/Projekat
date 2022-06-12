@@ -1,5 +1,5 @@
 # Projekat
-Radili Jelena Karan i Marko Milović. 
+Radili Jelena Karan (EE48/2018) i Marko Milović (EE31/2018).
 
 ## UVOD
 
